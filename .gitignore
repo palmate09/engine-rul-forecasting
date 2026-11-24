@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/processed/
+models/*.joblib
+predictions.csv
+results/*.log
+.streamlit/

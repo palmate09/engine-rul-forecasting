@@ -1,0 +1,34 @@
+Loading FD001 from /home/shubham/ml_project/data/raw/CMAPSS ...
+  train: (20631, 26), test: (13096, 26), rul: (100, 1)
+Building features ...
+  features: 213 | sensors kept: 15 | dropped: ['s1', 's5', 's10', 's16', 's18', 's19']
+  train engines: 80 | validation engines: 20
+  train rows: 16779 | validation rows: 100
+
+Training models ...
+  Mean baseline          RMSE= 42.050  MAE= 34.702  NASA= 425.863  late= 58/100
+  Ridge                  RMSE= 14.458  MAE= 11.464  NASA=   3.130  late= 54/100
+  Random Forest          RMSE= 15.244  MAE= 11.355  NASA=   4.934  late= 67/100
+  HistGradientBoosting   RMSE= 14.726  MAE= 11.066  NASA=   4.470  late= 66/100
+  XGBoost                RMSE= 15.178  MAE= 11.119  NASA=   5.296  late= 63/100
+
+Selected model: Ridge
+Refitting selected model on all non-test engines ...
+
+Final test results (primary target = capped at 125):
+  rmse        : 14.8919
+  mae         : 11.6346
+  r2          : 0.8619
+  nasa_mean   : 3.1999
+  late_count  : 50
+  late_rate   : 0.5000
+Final test results (raw official RUL target):
+  rmse        : 16.3011
+  mae         : 12.7046
+  r2          : 0.8461
+  nasa_mean   : 3.7242
+Saving figures ...
+
+Saved model -> /home/shubham/ml_project/models/rul_model.joblib
+Saved results -> /home/shubham/ml_project/results
+Saved figures -> /home/shubham/ml_project/reports/figures

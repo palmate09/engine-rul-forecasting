@@ -1,0 +1,13 @@
+alpha=    0.01  RMSE= 14.437  MAE= 11.450  NASA=   3.117
+alpha=    0.03  RMSE= 14.437  MAE= 11.450  NASA=   3.117
+alpha=     0.1  RMSE= 14.439  MAE= 11.451  NASA=   3.118
+alpha=     0.3  RMSE= 14.443  MAE= 11.454  NASA=   3.121
+alpha=       1  RMSE= 14.458  MAE= 11.464  NASA=   3.130
+alpha=       3  RMSE= 14.494  MAE= 11.494  NASA=   3.152
+alpha=      10  RMSE= 14.596  MAE= 11.595  NASA=   3.214
+alpha=      30  RMSE= 14.789  MAE= 11.863  NASA=   3.327
+alpha=     100  RMSE= 15.144  MAE= 12.393  NASA=   3.526
+alpha=     300  RMSE= 15.600  MAE= 12.963  NASA=   3.796
+alpha=    1000  RMSE= 16.257  MAE= 13.539  NASA=   4.264
+
+Saved /home/shubham/ml_project/results/ridge_alpha_sweep.csv

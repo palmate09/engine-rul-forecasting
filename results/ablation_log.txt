@@ -1,0 +1,6 @@
+raw sensors  Ridge                  val_rmse= 23.63 test_rmse= 20.59 test_nasa= 12.29
+raw sensors  HistGradientBoosting   val_rmse= 21.80 test_rmse= 17.33 test_nasa=  9.67
+engineered   Ridge                  val_rmse= 14.46 test_rmse= 14.89 test_nasa=  3.20
+engineered   HistGradientBoosting   val_rmse= 14.73 test_rmse= 15.37 test_nasa=  5.06
+
+Saved /home/shubham/ml_project/results/ablation.csv
